@@ -18,7 +18,7 @@ let konutKredileri = ["Konut Kredisi","Emlak Konut Kredisi","Kamu-komut Kredisi"
 
 console.log("<ul>")
 
-for (let i = 0; i<3; i++ ) {
+for (let i = 0; i<konutKredileri.length; i++ ) {
     console.log("<li>" + konutKredileri[i] + "<li>" )
 }
 console.log("<ul>")
